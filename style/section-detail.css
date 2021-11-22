@@ -1,0 +1,45 @@
+.section-detail {
+    height: 100vh;
+    position: relative;
+  }
+  
+  .s5-bg-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .s5-info-container-left {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 20rem;
+    top: 30%;
+    left: calc(50vw - 35rem);
+    color: var(--alt-text-color);
+  }
+  
+  .s5-info-container-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    width: 20rem;
+    top: 30%;
+    right: calc(50vw - 35rem);
+    color: var(--alt-text-color);
+    text-align: right;
+  }
+  
+  .s5-info-container-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    width: 20rem;
+    bottom: 10%;
+    right: calc(50vw - 35rem);
+    color: var(--alt-text-color);
+    text-align: right;
+  }
+  

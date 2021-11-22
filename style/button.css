@@ -1,0 +1,21 @@
+button {
+    width: 5rem;
+    height: 2rem;
+
+    background: none;
+    border: 2px solid;
+    border-radius: 100rem;
+
+    color: var(--button-color);
+}  
+
+.alt-button {
+    width: 5rem;
+    height: 2rem;
+
+    background: none;
+    border: 2px solid;
+    border-radius: 100rem;
+
+    color: var(--alt-button-color);
+}

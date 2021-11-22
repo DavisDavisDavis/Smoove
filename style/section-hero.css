@@ -1,0 +1,45 @@
+.section-hero {
+  --nav-height: 5rem;
+  height: 100vh;
+  background-color: var(--background-color);
+}
+
+nav {
+  background-color: var(--alt-background-color);
+  display: flex;
+  justify-content: space-between;
+  height: var(--nav-height);
+}
+
+.logo {
+  background-color: tomato;
+  width: 24rem;
+}
+
+.nav-links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  width: 5rem;
+  color: var(--link-color);
+  text-align: center;
+}
+
+.hero-img {
+  width: 100%;
+  height: calc(100vh - var(--nav-height));
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 25%;
+  color: white;
+  font-size: 5rem;
+}
