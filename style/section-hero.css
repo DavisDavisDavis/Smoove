@@ -5,22 +5,28 @@
 }
 
 nav {
-  background-color: var(--alt-background-color);
+  background-color: var(--main-bg-color);
+  opacity: 70%;
+  width: 100%;
+
   display: flex;
   justify-content: space-between;
   height: var(--nav-height);
+
+  position: absolute;
+
+  padding: 0 1rem;
 }
 
 .logo {
-  background-color: tomato;
   width: 24rem;
 
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 .logo img {
-  width: 18rem;
+  width: 12rem;
 }
 
 .nav-links-container {
@@ -31,22 +37,41 @@ nav {
 
 .nav-link {
   width: 5rem;
-  color: var(--link-color);
+  color: var(--main-accent-color);
   text-align: center;
 }
 
 .hero-img {
   width: 100%;
-  height: calc(100vh - var(--nav-height));
+  height: 100vh;
   object-fit: cover;
 }
 
-.hero-text {
+.section-hero h1 {
   position: absolute;
   text-align: center;
   left: 50%;
   transform: translateX(-50%);
-  top: 25%;
-  color: white;
+  top: 10%;
+  color: var(--main-accent-color);
   font-size: 5rem;
+
+  width: 80%;
+}
+
+.section-hero h1 span {
+  color: var(--main-bg-color);
+}
+
+.hero-info-container {
+  position: absolute;
+
+  left: 5%;
+  bottom: 5%;
+}
+
+.hero-info-container h2 {
+  font-size: 1.5rem;
+  color: var(--main-accent-color);
+  padding: 0;
 }

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Text&family=Roboto&display=swap');
+
 :root {
   /* Font sizes */
   --h1: 2.25rem;
@@ -16,14 +19,65 @@
   --button-color: black;
   --alt-button-color: rgb(151, 151, 151);
 
+  
+  --main-bg-color: #4e404f;
+  --main-accent-color: #FFD6BF;
+  --rasin-black: #201D26;
 }
 
 * {
-  font-family: Arial, Helvetica, sans-serif;
-
   box-sizing: border-box;
+
+  font-family: 'DM Sans', sans-serif;
+}
+
+a {
+  /* font-family: 'DM Serif Text', serif; */
 }
 
 body {
   margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.info-box {
+  color: var(--main-accent-color);
+  width: 20rem;
+
+  margin: 1rem;
+}
+
+.info-box div {
+  height: 2px;
+  width: 8rem;
+
+  background: #FFC1B3;
+}
+
+
+.info-box-right {
+  color: var(--main-accent-color);
+  width: 20rem;
+
+  margin: 1rem;
+
+  text-align: right;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.info-box-right p {
+  color: white;
+}
+
+.info-box-right div {
+  height: 2px;
+  width: 8rem;
+
+  background: #FFC1B3;
 }
