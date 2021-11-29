@@ -5,7 +5,7 @@
 }
 
 nav {
-  background-color: var(--main-bg-color);
+  background-color: none;
   opacity: 70%;
   width: 100%;
 
@@ -13,9 +13,14 @@ nav {
   justify-content: space-between;
   height: var(--nav-height);
 
-  position: absolute;
+  position: fixed;
 
   padding: 0 1rem;
+  z-index: 100;
+}
+
+.nav-color {
+  background-color: var(--main-bg-color);
 }
 
 .logo {
@@ -29,16 +34,22 @@ nav {
   width: 12rem;
 }
 
-.nav-links-container {
+.hamburger-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
-.nav-link {
-  width: 5rem;
-  color: var(--main-accent-color);
-  text-align: center;
+.hamburger-bar {
+  width: 40px;
+  height: 6px;
+  background-color: black;
+  margin: 3px 0;
+  border-radius: 100px;
+}
+
+.hamburger-bar-color{
+  background-color: var(--main-accent-color);
 }
 
 .hero-img {

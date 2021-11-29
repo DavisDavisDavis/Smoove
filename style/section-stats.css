@@ -1,0 +1,40 @@
+.section-stats {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+
+    background: var(--rasin-black);
+}
+
+.section-stats .stats-container {
+    width: 100%;
+    width: 100%;
+
+    position: relative;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.section-stats .stats-container img {
+    min-width: 28rem;
+    min-height: 25rem;
+
+    margin: 3rem;
+}
+
+.section-stats .logo {
+    width: 100rem;
+
+    position: absolute;
+
+    top: 22rem;
+    right: calc(-490px + 80vw);
+
+    z-index: 1;
+}
