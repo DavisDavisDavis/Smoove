@@ -17,6 +17,8 @@ nav {
 
   padding: 0 1rem;
   z-index: 100;
+
+  transition: all 0.5s;
 }
 
 .nav-color {

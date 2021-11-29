@@ -26,7 +26,6 @@
     min-height: 25rem;
 
     margin: 3rem;
-
     z-index: 1;
     
 }
@@ -40,4 +39,16 @@
     right: calc(-60rem + 80vw);
 
     fill: black;
+}
+
+.section-stats .info-box h3 {
+    font-size: 5rem;
+
+    z-index: 1;
+} 
+
+.section-stats .info-box p {
+    font-size: 1.5rem;
+
+    z-index: 1;
 }

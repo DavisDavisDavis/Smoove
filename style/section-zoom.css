@@ -1,0 +1,54 @@
+.section-7 {
+    height: 203.5vh;
+    width: 100vw;
+    position: relative;
+
+    
+    background: #201D26;
+}
+
+.grid-container {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    align-content: stretch;
+    justify-items: center;
+    grid-gap: 2rem;
+
+}
+
+.s7-img {
+    height: 100vh;
+    width: 100%;
+
+    background: pink;
+
+    z-index: 1;
+}
+
+.section-7 .s7-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: rotate(0deg);
+}
+
+.section-7 .grid-container .info-box {
+    z-index: 1;
+}
+
+.s7-text {
+    padding: 5rem;
+}
+
+.section-7 .logo {
+    display: block;
+    position: absolute;
+    transform: rotate(90deg);
+
+    width: 60rem;
+
+    top: 40%;
+    left: calc(-490px + 50vw);
+}
