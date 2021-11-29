@@ -36,8 +36,8 @@
 
     position: absolute;
 
-    top: 22rem;
-    right: calc(-490px + 80vw);
+    top: 50vh;
+    right: calc(-60rem + 80vw);
 
     fill: black;
 }
