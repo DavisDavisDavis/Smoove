@@ -5,6 +5,7 @@
     display: flex;
 
     background: var(--rasin-black);
+    
 }
 
 .section-stats .stats-container {
@@ -18,7 +19,6 @@
     justify-content: center;
     align-items: center;
 
-
 }
 
 .section-stats .stats-container img {
@@ -26,9 +26,12 @@
     min-height: 25rem;
 
     margin: 3rem;
+
+    z-index: 1;
+    
 }
 
-.section-stats .logo {
+.section-stats .logo  {
     width: 100rem;
 
     position: absolute;
@@ -36,5 +39,5 @@
     top: 22rem;
     right: calc(-490px + 80vw);
 
-    z-index: 1;
+    fill: black;
 }

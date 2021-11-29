@@ -15,6 +15,7 @@
     align-content: stretch;
     justify-items: center;
 
+
 }
 
 .s7-img {
@@ -22,13 +23,19 @@
     width: 100%;
 
     background: pink;
+
+    z-index: 1;
+}
+
+.section-7 .grid-container .info-box {
+    z-index: 1;
 }
 
 .s7-text {
     padding: 5rem;
 }
 
-.section-7 .background img {
+.section-7 img {
     display: block;
     position: absolute;
     transform: rotate(90deg);
