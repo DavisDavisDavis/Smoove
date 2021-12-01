@@ -1,6 +1,6 @@
 .section-info {
     height: 130vh;
-    width: 100vw;
+    width: 100%;
 
     padding: 5rem 0rem;
 
@@ -30,7 +30,7 @@
 }
 
 .section-info .info-box {
-    min-width: 25rem;
+    min-width: rem;
 }
 
 .section-info h3 {
