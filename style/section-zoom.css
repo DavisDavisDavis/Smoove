@@ -50,3 +50,28 @@
     top: 40%;
     left: calc(-490px + 50vw);
 }
+
+@media screen and (max-width: 800px) {
+
+    .grid-container {
+        display: grid;
+        grid-template: repeat(4, 50vh) / repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+        align-content: stretch;
+        justify-items: center;
+    }
+
+    .section-7 .grid-container .s7-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section-7 .grid-container .info-box:nth-of-type(2) {
+        order: 2;
+    }
+
+    .section-7 .logo {
+        display: none;
+    }
+}
