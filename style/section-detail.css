@@ -86,14 +86,18 @@
     margin: auto;
     width: 100%;
     background-color: rgb(32, 32, 32);
-    gap: 2rem 0;
-    padding: 4rem 0;
+    gap: 12rem 0;
+    padding: 10rem 0;
   }
 
   .detail-mobile-container img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  .detail-mobile-container .info-box {
+    margin: 2rem 0 0 0;
   }
 
   .tire-container{
