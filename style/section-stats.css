@@ -64,9 +64,9 @@
     width: 20rem;
 }
 
-@media screen and (max-width: 914px) {
+@media screen and (max-width: 1181px) {
     .section-stats {
-        height: 120vh;
+        height: 105vh;
 
 
     }
