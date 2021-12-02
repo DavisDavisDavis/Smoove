@@ -19,5 +19,15 @@ window.addEventListener('scroll',(e) =>{
     
 })
 
+setTimeout(()=>{
 
+    const intro = document.querySelector(".curtain");
+    intro.classList.add("hide");
 
+}, 1000)
+
+setTimeout(()=>{
+    const intro = document.querySelector(".intro");
+    intro.classList.add("hide");
+
+}, 4900)
