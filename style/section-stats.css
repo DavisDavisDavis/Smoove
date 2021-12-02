@@ -41,6 +41,7 @@
     right: calc(-20rem + 30vw);
 
     fill: black;
+    z-index: 0;
 }
 
 .section-stats .info-container .info-box {
@@ -67,7 +68,7 @@
     .section-stats {
         height: 120vh;
 
-        margin-top: 1rem;
+
     }
 
     .section-stats .stats-container {

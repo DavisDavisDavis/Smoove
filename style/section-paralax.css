@@ -5,10 +5,55 @@
 
 .section-paralax img {
     object-fit: cover;
+    object-position: top;
     width: 100%;
     height: 100%;
 
     position: absolute;
 
-    z-index: -1;
+    z-index: 1;
+}
+
+.section-paralax .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 2;
+}
+
+.section-paralax .container .info-box {
+    width: 90%;
+    text-align: center;
+
+    z-index: 2;
+}
+
+.section-paralax .container .right-side{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    z-index: 2;
+}
+
+.section-paralax .container .right-side .info-box {
+    width: 50%;
+}
+
+
+.section-paralax .container .info-box h3 {
+    font-size: 7rem;
+
+    z-index: 2;
+}
+
+.section-paralax .container .info-box p {
+    font-size: 5rem;
+
+    z-index: 2;
 }
