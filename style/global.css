@@ -26,6 +26,7 @@
   --eggplant: #4E404F;
   --unbleached-silk: #FFD6BF;
   --coffee: #363040;
+  --seashell: #FFF1EB;
 }
 
 * {
@@ -40,6 +41,7 @@ a {
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 img {
@@ -98,3 +100,4 @@ img {
   font-size: 3rem;
   margin: 0;
 }
+

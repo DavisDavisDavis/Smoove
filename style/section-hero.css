@@ -94,14 +94,11 @@ nav {
 
 @media screen and (max-width: 500px) {
   .section-hero {
+    width: 100%;
   }
 
   .section-hero h1 {
     margin-top: 7rem;
     font-size: 4rem;
-  }
-
-  nav {
-    width: 100vw;
   }
 }
