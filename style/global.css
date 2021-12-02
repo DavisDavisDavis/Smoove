@@ -35,6 +35,13 @@
   font-family: "DM Sans", sans-serif;
 }
 
+.curtain{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--rasin-black);
+}
+
 .intro{
   position: absolute;
   background: transparent;
@@ -108,3 +115,6 @@ img {
   margin: 0;
 }
 
+.hide{
+  display: none;
+}
