@@ -21,21 +21,13 @@
 
 }
 
-.section-stats .stats-container img {
-    min-width: 28rem;
-    min-height: 25rem;
-
-    margin: 3rem;
-    z-index: 1;
-}
-
 .section-stats .stats-container .stats-img {
     min-width: 28rem;
     min-height: 25rem;
-
+    
     margin: 3rem;
     z-index: 1;
-
+    
     object-fit: cover;
     object-position: bottom;
 }
@@ -45,7 +37,7 @@
 
     position: absolute;
 
-    top: 60vh;
+    top: 72vh;
     right: calc(-20rem + 30vw);
 
     fill: black;
@@ -72,7 +64,7 @@
 
     .section-stats .stats-container {
         width: 100%;
-        height: 100%;
+        height: 53rem;
         
         display: flex;
         justify-content: center;
@@ -82,7 +74,7 @@
 
     .section-stats .stats-container .stats-img{
         width: 100%;
-        height: 55%;
+        height: 50%;
         max-width: none;
         max-height: none;
 
