@@ -19,14 +19,8 @@ window.addEventListener('scroll',(e) =>{
     
 })
 
-
 setTimeout(()=>{
 
-<<<<<<< Updated upstream
-=======
-setTimeout(()=>{
-
->>>>>>> Stashed changes
     const intro = document.querySelector(".curtain");
     intro.classList.add("hide");
 
@@ -36,8 +30,4 @@ setTimeout(()=>{
     const intro = document.querySelector(".intro");
     intro.classList.add("hide");
 
-<<<<<<< Updated upstream
 }, 4900)
-=======
-}, 4900)
->>>>>>> Stashed changes
