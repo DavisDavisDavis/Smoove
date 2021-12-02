@@ -50,7 +50,7 @@
         background: pink;
 
         display: grid;
-        grid-template: repeat(6, 21.5rem) / repeat(1, 1fr);
+        grid-template: repeat(6, 21.5rem) / repeat(1, 100%);
         align-items: center;
         justify-content: center;
         align-content: stretch;
@@ -59,6 +59,10 @@
         background: var(--off-white);
 
         position: relative;
+    }
+
+    .section-info .info-box {
+        width: 18rem;
     }
 
     .section-info .s4-img {
