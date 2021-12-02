@@ -30,6 +30,8 @@
     text-align: center;
 
     z-index: 2;
+
+    margin: 16rem 0;
 }
 
 .section-paralax .container .right-side{
@@ -46,24 +48,26 @@
     width: 50%;
 
     text-align: left;
+
+    margin: 16rem 0;
 }
 
 
 .section-paralax .container .info-box h3 {
-    font-size: 6vw;
+    font-size: 4rem;
 
     z-index: 2;
 }
 
 .section-paralax .container .info-box p {
-    font-size: 4vw;
+    font-size: 3rem;
 
     z-index: 2;
 }
 
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1610px) {
     .section-paralax {
-        height: 100rem;
+        height: 180rem;
     }
 
     .section-paralax .container .info-box {
@@ -103,14 +107,54 @@
     
     
     .section-paralax .container .info-box h3 {
-        font-size: 6vw;
+        font-size: 4rem;
     
         z-index: 2;
     }
     
     .section-paralax .container .info-box p {
-        font-size: 6vw;
+        font-size: 3rem;
     
         z-index: 2;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .section-paralax .container .info-box h3 {
+        font-size: 4rem;
+    }
+    
+    .section-paralax .container .info-box p {
+        font-size: 2.3rem;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .section-paralax .container .info-box h3 {
+        font-size: 3rem;
+    }
+    
+    .section-paralax .container .info-box p {
+        font-size: 2.3rem;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .section-paralax .container .info-box h3 {
+        font-size: 2rem;
+    }
+    
+    .section-paralax .container .info-box p {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 432px) {
+    .section-paralax .container .info-box h3 {
+        font-size: 2rem;
+    }
+    
+    .section-paralax .container .info-box p {
+        font-size: 1.5rem;
     }
 }
