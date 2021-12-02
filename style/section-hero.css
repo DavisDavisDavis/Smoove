@@ -4,14 +4,6 @@
   background-color: var(--background-color);
 }
 
-.curtain{
-  position: fixed;
-  background: var(--rasin-black);
-  width: 100%;
-  height: 100vh;
-  z-index: 500;
-}
-
 nav {
   background-color: none;
   opacity: 70%;
