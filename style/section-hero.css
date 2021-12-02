@@ -59,6 +59,8 @@ nav {
   height: 100vh;
   object-fit: cover;
   object-position: bottom;
+
+  display: block;
 }
 
 .section-hero h1 {
@@ -88,4 +90,18 @@ nav {
   font-size: 1.5rem;
   color: var(--main-accent-color);
   padding: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .section-hero {
+  }
+
+  .section-hero h1 {
+    margin-top: 7rem;
+    font-size: 4rem;
+  }
+
+  nav {
+    width: 100vw;
+  }
 }

@@ -38,6 +38,10 @@
     color: var(--rasin-black);
 }
 
+.section-info .logo {
+    display: none;
+}
+
 @media screen and (max-width: 730px){
     .section-info {
         height: 200%;
@@ -53,6 +57,8 @@
         justify-items: center;
 
         background: var(--off-white);
+
+        position: relative;
     }
 
     .section-info .s4-img {
@@ -85,5 +91,18 @@
 
     .section-info .info-box:nth-of-type(4) {
         order: 4;
+    }
+
+    .section-info .logo {
+        display: block;
+        position: absolute;
+        transform: rotate(90deg);
+    
+        width: 120rem;
+    
+        top: 40%;
+        left: calc(-1200px + 50vw);
+
+        opacity: 50%;
     }
 }
