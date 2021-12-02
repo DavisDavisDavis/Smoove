@@ -35,6 +35,13 @@
   font-family: "DM Sans", sans-serif;
 }
 
+.intro{
+  position: absolute;
+  background: transparent;
+  width: 100%;
+  z-index: 1000;
+}
+
 a {
   /* font-family: 'DM Serif Text', serif; */
 }
